@@ -25,7 +25,7 @@ return(
         <h2>{id} - {gift}</h2>
     </div>
     <div className="container">
-      <img src={img} width = "300px" alt = "image"/>
+      <img src={img} width = "300px" alt = "img"/>
     </div>
     <div className="container">
       <button onClick={() => removeGift(id)}>Remove</button>
