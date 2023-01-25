@@ -18,14 +18,14 @@ return(
 <h1>List of {gifts.length} gifts</h1>
 </div>
 {gifts.map((element => {
-  const {id, gift, image} = element;
+  const {id, gift, img} = element;
   return(
     <div key={id}>
       <div className="container">
         <h2>{id} - {gift}</h2>
     </div>
     <div className="container">
-      <img src={image} width = "300px" alt = "image"/>
+      <img src={img} width = "300px" alt = "image"/>
     </div>
     <div className="container">
       <button onClick={() => removeGift(id)}>Remove</button>
